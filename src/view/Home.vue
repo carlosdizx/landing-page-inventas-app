@@ -1,20 +1,23 @@
 <template>
   <Navbar />
-  <Section
-    image-url="src/assets/example.jpg"
-    title="Seccion 1"
-    text="textio que nos interesa mostrar"
-  />
-  <Section
-    image-url="src/assets/example.jpg"
-    title="Seccion 1"
-    text="textio que nos interesa mostrar"
-  />
-  <Section
-    image-url="src/assets/example.jpg"
-    title="Seccion 1"
-    text="textio que nos interesa mostrar"
-  />
+  <v-container class="mx-12">
+    <v-card-title class="text-center"><h2>Casos de exito</h2></v-card-title>
+    <Section
+      image-url="src/assets/example.jpg"
+      title="Seccion 1"
+      text="textio que nos interesa mostrar"
+    />
+    <Section
+      image-url="src/assets/example.jpg"
+      title="Seccion 1"
+      text="textio que nos interesa mostrar"
+    />
+    <Section
+      image-url="src/assets/example.jpg"
+      title="Seccion 1"
+      text="textio que nos interesa mostrar"
+    />
+  </v-container>
 </template>
 
 <script setup lang="ts">
