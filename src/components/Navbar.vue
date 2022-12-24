@@ -1,6 +1,5 @@
 <template>
-  <h1>Hola</h1>
-  <h2>Hola</h2>
+//i need a navbar with buttons example https://www.mailerlite.com/templates/landing-pages/hobbies
 </template>
 
 <script setup lang="ts">
