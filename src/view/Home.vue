@@ -37,7 +37,7 @@
 <script setup lang="ts">
 import Navbar from "@/components/Navbar.vue";
 import Section from "@/components/common/Section";
-import Carrousel from "@/components/common/Carrousel.vue";
+import Carrousel from "@/components/common/CarrouselImages.vue";
 const items = [
   {
     src: "https://cdn.vuetifyjs.com/images/carousel/squirrel.jpg",
