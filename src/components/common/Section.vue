@@ -8,10 +8,13 @@
       </v-col>
       <v-col cols="6">
         <v-card-title>
-          {{title}}
+          {{ title }}
         </v-card-title>
         <v-card-text>
-          {{text}}
+          {{ text }}
+        </v-card-text>
+        <v-card-text v-if="buttonTitle">
+          <v-btn @click="lambda">{{ buttonTitle }}</v-btn>
         </v-card-text>
       </v-col>
     </v-row>
@@ -22,6 +25,8 @@
 const props = defineProps({
   imageUrl: String,
   title: String,
-  text: String
-})
+  text: String,
+  buttonTitle: String,
+  lambda: { type: Function, required: false },
+});
 </script>
