@@ -1,9 +1,5 @@
 <template>
-  <v-card>
-    <v-container>
-
-    </v-container>
-  </v-card>
+  <v-container> </v-container>
 </template>
 
 <script lang="ts" setup></script>
