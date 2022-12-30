@@ -23,8 +23,8 @@ export default createVuetify({
       },
       dark: {
         colors: {
-          primary: '#1867C0',
-          secondary: '#5CBBF6',
+          primary: '#05274e',
+          secondary: '#de2828',
         },
       }
     },
