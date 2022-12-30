@@ -1,5 +1,6 @@
 <template>
   <v-container>
+    <EmployeeDetails />
     <Navbar />
     <Carrousel :items="items" />
     <v-container class="mx-12">
@@ -38,6 +39,7 @@
 import Navbar from "@/components/Navbar.vue";
 import CardImageDetails from "@/components/common/CardImageDetails.vue";
 import Carrousel from "@/components/common/Carrousel/CarrouselImages.vue";
+import EmployeeDetails from "@/components/common/person/EmployeeDetails.vue"
 const items = [
   {
     src: "https://cdn.vuetifyjs.com/images/carousel/squirrel.jpg",
